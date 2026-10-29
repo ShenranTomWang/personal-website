@@ -1,0 +1,10 @@
+{
+    "name": "shenran-wang-personal-website",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Shenran Wang's academic personal website",
+    "scripts": {
+        "dev": "python3 -m http.server 5173 --directory dist --bind 127.0.0.1",
+        "check": "node --check dist/script.js"
+    }
+}
